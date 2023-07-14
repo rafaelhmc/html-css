@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio02</title>
+    <link rel="shortcut icon" href="imagens/icone.png" type="image/x-icon">
+   <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    body{
+        background-color: aqua;
+        font-family: 'work sans' , sans serif;
+        font-weight: bolder;
+        font-size: 1.5em;
+    }
+    #principal{
+        background-color: aliceblue;
+        font-style: italic;
+    }
+   </style>
+</head>
+<body>
+    <h1 id="principal">Desafio 2</h1>
+    <h1>Desafio das Imagens</h1>
+    <p>Inserir imagens em HTML é muito simples, tanto no conteúdo quanto lá em cima como no  ícone de favoritos!</p>
+    
+    <picture>
+        <source media="(max-width:450px )" srcset="imagens/github-pp.png" type="image/png">
+        <source media="(max-width:650px)" srcset="imagens/github-p.png" type="image/png">
+        <source media="(max-width:750px)" srcset="imagens/github-m.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/github-g.png" type="image/png">
+        <img src="imagens/github-gg.png" alt="">
+    </picture>
+
+    <p><a href="../ex003/desafio03.html">Proximo desafio</a></p>
+    <p><a href="../ex001/desafio01.html">Voltar</a></p>
+</body>
+</html>
