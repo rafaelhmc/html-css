@@ -34,7 +34,7 @@ header h1{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     color: white;
     font-family: var(--fonte-destaque);
-    font-size: 3.5em;
+    font-size: 2em;
     font-weight: bolder;
     margin: auto;
     padding: 5px;
@@ -46,7 +46,7 @@ header h1{
 main{
     background-image: linear-gradient(to right, var(--cor0), transparent);
     box-shadow: 1px 2px 7px 1px #0505056c;
-    height: 800px;
+    height: 700px;
     width: 600px;
     padding: 5px;
     margin: auto;
@@ -63,13 +63,13 @@ main h1{
     padding: 20px;
     text-align: center;
     font-weight: 400;
-    font-size: 4em;
+    
     font-family: var(--fonte-especial);
     color: var(--cor5);
 }
 main p{
     font-family: var(--fonte-especial);
-    font-size: 4em;
+    font-size: 2em;
     color: var(--cor5);
 }
 
